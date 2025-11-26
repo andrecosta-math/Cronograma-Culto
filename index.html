@@ -433,10 +433,10 @@ Aviso 3`
                     startTime: startTimeInput.value,
                     items: scheduleData
                 };
-                localStorage.setItem('culto211125Schedule', JSON.stringify(dataToSave));
+                localStorage.setItem('culto251125Schedule', JSON.stringify(dataToSave));
             }            
             function loadFromLocalStorage() {
-                const savedData = localStorage.getItem('culto211125Schedule');
+                const savedData = localStorage.getItem('culto251125Schedule');
                 if (savedData) {
                     const data = JSON.parse(savedData);
                     if (data.items && Array.isArray(data.items)) {
